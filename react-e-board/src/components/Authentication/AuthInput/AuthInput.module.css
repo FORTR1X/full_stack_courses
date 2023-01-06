@@ -1,0 +1,26 @@
+.input__item {
+  font-family: 'Lato Medium', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+
+  background: #FAFAFA;
+  border-radius: 5px;
+  border: none;
+  height: 50px;
+
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.input__name {
+  font-family: 'Lato Medium', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Dark Purple/100 */
+  color: #130F1C;
+}

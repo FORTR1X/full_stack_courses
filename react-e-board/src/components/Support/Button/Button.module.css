@@ -1,0 +1,30 @@
+.supp_btn {
+  text-decoration: none;
+
+  background-color: #9480FF;
+  border-radius: 5px;
+
+  font-family: 'Lato Medium', sans-serif;
+  font-style: normal;
+
+  width: 288px;
+  height: 48px;
+
+  margin: 0 auto;
+}
+
+.btn__text {
+  color: white;
+  text-align: center;
+}
+
+.supp_btn_content {
+  margin: 0 auto;
+  margin-top: 4%;
+
+  white-space: nowrap;
+}
+
+.supp_btn_img {
+  vertical-align: middle;
+}

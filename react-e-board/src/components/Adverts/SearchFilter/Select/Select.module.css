@@ -1,0 +1,22 @@
+.select__content {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  height: 90px;
+}
+
+.select {
+  margin: 0 auto;
+
+  width: 223px;
+  height: 48px;
+
+  padding-left: 5px;
+
+  border: 2px solid #DEDEE0;
+  border-radius: 5px;
+}
+
+.select__label {
+  margin-left: 10px;
+}

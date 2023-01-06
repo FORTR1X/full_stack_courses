@@ -1,0 +1,124 @@
+.logo {
+    /* Roboto/H2 */
+
+    width: 50%;
+
+    font-weight: 500;
+    font-size: 24px;
+    /* identical to box height, or 167% */
+
+    line-height: 46px;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    display: grid;
+    margin: 0 auto;
+    width: 1100px;
+    grid-template-columns: 2fr 3fr 1fr 2fr 1fr;
+    grid-column-gap: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    line-height: normal;
+    vertical-align: middle;
+
+    font-family: 'Lato Medium', sans-serif;
+    font-style: normal;
+}
+
+.logoLetterE {
+    color: #FF8A00;
+}
+
+.btn {
+    font-family: 'Lato Medium', sans-serif;
+    font-style: normal;
+
+    white-space: nowrap;
+    overflow: hidden;
+
+    height: 100%;
+    width: 100%;
+
+    cursor: pointer;
+
+    text-align: center;
+}
+
+.button {
+
+    /* Purple/100 */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    border: none;
+    background: #9480FF;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+}
+
+.buttonActive {
+
+    /* Purple/100 */
+
+    border: 3px solid #9480FF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    color: #9480FF;
+    background-color: white;
+}
+
+.input {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 12px 8px 12px 12px;
+
+    width: 455px;
+    height: 48px;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* Gray/300 */
+
+    border: 2px solid #DEDEE0;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    /*Text*/
+    color: #130F1C;
+    font-size: 16px;
+    line-height: 24px;
+
+    /*SVG*/
+    background: url("../../../public/search.svg") no-repeat 97% 50%;
+}
+
+.btnLinkActive {
+    text-decoration: none;
+    color: #9480FF;
+}
+
+.btnLink {
+    text-decoration: none;
+    color: white;
+}
+
+.auth__user {
+    width: 47px;
+    height: 47px;
+
+    object-fit: cover;
+
+    background-color: whitesmoke;
+    border-radius: 50%;
+
+    cursor: pointer;
+}

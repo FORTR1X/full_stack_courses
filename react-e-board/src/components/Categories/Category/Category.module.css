@@ -1,0 +1,27 @@
+div {
+    font-family: 'Lato Medium', sans-serif;
+    font-style: normal;
+}
+
+.category {
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+.categoryLogo {
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.categoryLogoEclipse.categoryLogo {
+    height: 80px;
+    width: 80px;
+    border-radius: 200px;
+    background-color: white;
+}
+.categoryName {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+

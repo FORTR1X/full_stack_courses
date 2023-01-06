@@ -1,0 +1,22 @@
+.input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  height: 90px;
+}
+
+.input__input {
+  margin: 0 auto;
+
+  width: 209px;
+  height: 43px;
+
+  padding-left: 10px;
+
+  border: 2px solid #DEDEE0;
+  border-radius: 5px;
+}
+
+.input__label {
+  margin-left: 10px;
+}

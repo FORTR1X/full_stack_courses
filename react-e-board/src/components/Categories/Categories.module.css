@@ -1,0 +1,36 @@
+.categories__window {
+    display: grid;
+
+    height: 10%;
+}
+
+h3 {
+    font-family: 'Lato Bold', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+
+    /* Dark Purple/100 */
+
+    color: #130F1C;
+    text-align: center;
+}
+
+.categories {
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 5fr 2fr 5fr;
+    grid-column-gap: 40px;
+    padding-top: 5px;
+
+    width: 650px;
+}
+
+.categories__content {
+    height: 135px;
+    background-color: #816AF8;
+}

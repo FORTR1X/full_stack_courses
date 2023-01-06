@@ -1,0 +1,54 @@
+server:
+  port: ${PORT_TO_EXPOSE:8080}
+
+logging:
+  level:
+    ROOT: INFO
+    org.springframework: INFO
+
+spring:
+  session:
+    jdbc:
+      initialize-schema: always
+      table-name: SPRING_SESSION
+  flyway:
+    baselineOnMigrate: true
+    enabled: true
+  application:
+    name: kovalenko_project
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  jackson:
+    date-format: com.fasterxml.jackson.databind.util.ISO8601DateFormat
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres?currentSchema=public
+    username: postgres
+    password: password
+  jpa.hibernate.ddl-auto: none
+  jpa.database-platform: org.hibernate.dialect.PostgreSQLDialect
+  mail:
+    host: smtp.gmail.com
+    port: 465
+    username: fortrix07@gmail.com
+    password: bctvdvhgohpeminv
+    protocol: smtps
+    properties:
+      mail:
+        debug: false
+        starttls:
+          enable: true
+        smtp:
+          auth: true
+        transport:
+          protocol: smtps
+
+secure:
+  signingKey: sign_key_for_jwt
+
+springfox:
+  documentation:
+    swagger:
+      v2:
+        path: /v3/api-docs

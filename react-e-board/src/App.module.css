@@ -1,0 +1,10 @@
+div {
+  display: grid;
+}
+
+.font {
+  font-family: 'Lato Light', sans-serif;
+  font-style: normal;
+
+  letter-spacing: 0.5px;
+}

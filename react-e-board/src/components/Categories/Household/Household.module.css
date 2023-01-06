@@ -1,0 +1,14 @@
+.categories {
+  display: grid;
+  grid-template-columns: 5fr 2fr 2fr 2fr;
+  column-gap: 40px;
+
+  width: 600px;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+.content {
+  height: 135px;
+  background-color: #816AF8;
+}

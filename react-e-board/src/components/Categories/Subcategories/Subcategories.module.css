@@ -1,0 +1,31 @@
+.subCat {
+  font-family: 'Lato Medium', sans-serif;
+  font-style: normal;
+}
+
+.nameSubCat {
+  text-decoration: none;
+  color: white;
+}
+
+.categoryLogo {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.categoryLogoEclipse.categoryLogo {
+  /*margin-top: 50%;*/
+  margin-top: 23px;
+
+  height: 60px;
+  width: 60px;
+  border-radius: 200px;
+  background-color: white;
+}
+
+.categoryName {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}

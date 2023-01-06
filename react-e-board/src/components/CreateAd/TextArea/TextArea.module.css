@@ -1,0 +1,27 @@
+.textAreaContent {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+}
+
+.textArea {
+  font-family: 'Lato Medium', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+
+  background: #FAFAFA;
+  border-radius: 5px;
+  padding: 8px 2px 2px 12px;
+  border: 2px solid #DEDEE0;
+
+  width: 260px;
+  height: 100px;
+
+  max-height: 290px;
+  max-width: 260px;
+}
+
+.label {
+  padding-top: 5%;
+}

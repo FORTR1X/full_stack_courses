@@ -1,0 +1,26 @@
+.inputContent {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  margin-bottom: 20px;
+}
+
+.input {
+  border: 2px solid #DEDEE0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 12px 8px 12px 12px;
+
+  color: #130F1C;
+  width: 280px;
+  height: 90%;
+
+  font-family: 'Lato Medium', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.label {
+  padding-top: 5%;
+}

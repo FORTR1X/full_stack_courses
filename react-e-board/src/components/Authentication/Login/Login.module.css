@@ -1,0 +1,96 @@
+.login__outside {
+  position: fixed;
+}
+
+.background {
+  background-color: black;
+  position: fixed;
+
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+  opacity: 0.45;
+}
+
+.login {
+  position: fixed;
+
+  opacity: 1;
+
+  width: 353px;
+  height: 540px;
+  background: white;
+
+  left: 40%;
+  top: 15%;
+
+  box-shadow: 40px 40px 60px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.login__content {
+  height: 30%;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 24px;
+}
+
+.btn {
+  cursor: pointer;
+
+  background: #9480FF;
+  color: white;
+
+  border-radius: 5px;
+  border: none;
+
+  padding: 12px 48px;
+
+  margin-bottom: 21px;
+
+  font-family: 'Lato Medium', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.btnActive {
+  border: 3px solid #9480FF;
+  background-color: white;
+  color: #9480FF;
+}
+
+.forgotPassword {
+  cursor: pointer;
+  text-align: center;
+  color: #9480FF;
+  text-decoration: underline;
+}
+
+.fastRegistration {
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+.login__fastRegistration {
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+}
+
+.login__fastRegistration_item {
+  margin: 0 auto;
+  margin-top: 5px;
+
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  border-radius: 5px;
+  border: 1px solid #ECECEE;
+
+  cursor: pointer;
+}
